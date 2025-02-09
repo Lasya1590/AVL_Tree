@@ -58,9 +58,9 @@ Class Diagram: Represent the AVL tree structure with classes like AVLTree, Node,
 Sequence Diagram: Show the sequence of operations for inserting and balancing the tree.
 
 Here's a textual representation of what the UML class diagram might look like:
-
+```
 +---------------------+
-|      AVLTree        |
+|      AVLTree        | 
 +---------------------+
 | - root: Node        |
 +---------------------+
@@ -84,4 +84,5 @@ Here's a textual representation of what the UML class diagram might look like:
 | + getBalance(): int |
 | + updateHeight(): void|
 +---------------------+
+```
 In the Web UI project, you can use these classes to model and visualize AVL trees, providing users with interactive features to understand how the tree balances itself after each insertion or deletion.
